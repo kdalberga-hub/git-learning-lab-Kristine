@@ -1,2 +1,2 @@
 #Studentu saraksts
-## Kristine 
+## Kristine D
