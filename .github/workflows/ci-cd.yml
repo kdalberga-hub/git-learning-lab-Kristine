@@ -20,13 +20,13 @@ steps:
 
 - name: Lejupieladet repozitorija kodu
 
-uses: actions/checkout@v4
+  uses: actions/checkout@v4
 
 - name: Parbaudit, vai eksiste Students.md
 
-run: |
+  run: |
 
-if [ ! -f Students.md ]; then
+   if [ ! -f Students.md ]; then
 
 echo "Kļūda: fails Students.md nav atrasts!"
 
@@ -36,11 +36,11 @@ fi
 
 - name: Paradit Students.md saturu
 
-run: cat Students.md
-
+  run: cat Students.md
+  
 - name: Testa solis
 
-run: echo "Parbaude veiksmigi izpildita"
+   run: echo "Parbaude veiksmigi izpildita"
 
 - name: Deploy (demo solis)
 
