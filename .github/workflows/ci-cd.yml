@@ -28,11 +28,11 @@ steps:
 
    if [ ! -f Students.md ]; then
 
-echo "Kļūda: fails Students.md nav atrasts!"
+      echo "Kļūda: fails Students.md nav atrasts!"
 
-exit 1
+      exit 1
 
-fi
+   fi
 
 - name: Paradit Students.md saturu
 
